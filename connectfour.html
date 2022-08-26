@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Connect Four</title>
+
+    <style>
+        .dot {
+        min-height: 100px;
+        min-width: 100px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: block;
+        margin-right: clamp(20px);
+        margin-bottom:clamp(20px);
+        border: 2px solid black;
+        
+        }
+        .column {
+        display: inline-block;
+        
+        }
+        .column1{
+        display: inline-block;
+        }
+    </style>
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <h2 style="text-align:center"><b>Welcome to Connect Four!</b></h2>
+    <h3 style="text-align:center">The objective of this game is to connect four of your chips in a row!</h3>
+    <h3 style="text-align:center"></h3>
+    <br>
+    
+    <div style="text-align:center; background-size: cover; aspect-ratio: 100% 100%; position:relative; bottom: 20%; ">
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+        <div class="column">
+            <span class="dot" id="one"></span>
+            <span class="dot" id="two"></span>
+            <span class="dot" id="three"></span>
+            <span class="dot" id="four"></span>
+            <span class="dot" id="five"></span>
+            <span class="dot" id="six"></span>
+            </div>
+    </div>
+
+        <button type='button' style="text-align:center"></button>
+    
+    <script src="connectfour.js"></script>
+    
+  </body>
+</html>
